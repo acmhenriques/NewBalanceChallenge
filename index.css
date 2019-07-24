@@ -1,0 +1,39 @@
+*{ 
+    line-height: 1;
+}
+body{
+    font-family: 'Proxima Nova W01', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+.header img{
+    width: 100%
+}
+h1{
+    text-transform: uppercase;
+    font-size: 1.4375rem;
+    font-weight: 500;
+    margin-top: 35px;
+}
+.sneakers1, .sneakers2, .sneakers3 {
+    position: relative;
+}
+
+/* .grid-header{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.col{
+    display: flex;
+    height: 400px;
+}
+.img1{
+    background: url(Imagens/NB.png) no-repeat center center/cover;
+}
+.img2{
+    background: url(Imagens/977H.png) no-repeat center center/cover;
+} */
