@@ -29,6 +29,7 @@ h1{
 .btn-sneakers1 img, .btn-sneakers2 img, .btn-sneakers3 img{
     position: absolute;
     cursor: pointer;
+    background-color: transparent;
 }
 .btn-sneakers1 img{
     top: -220px;
@@ -51,7 +52,7 @@ h1{
     height: 2.5rem;
     padding: .7rem;
     text-transform: uppercase;
-    font-size: 0.6875rem;
+    font-size: 0.8125rem;
     font-weight: 500;
     color: white;
     text-decoration: none;
