@@ -8,7 +8,6 @@ body{
 .wrapper{
     width: 100%;
     margin: 0 auto;
-    position: relative;
 }
 .wrapper-small{
     width: 90%;
@@ -21,24 +20,26 @@ h1{
     text-transform: uppercase;
     font-size: 1.4375rem;
     font-weight: 400;
-    margin: 35px 0 210px;
+    margin: 35px 0 230px;
      
+}
+.sneakers{
+    position: relative;
 }
 .btn-sneakers1 img, .btn-sneakers2 img, .btn-sneakers3 img{
     position: absolute;
     cursor: pointer;
 }
 .btn-sneakers1 img{
-    top: 410px;
-    right: 130px;
+    top: -220px;
+    right: 120px;
 }
 .btn-sneakers2 img{
-    top: 485px;
-    right: 30px;
+    top: -145px;
 }
 .btn-sneakers3 img{
-    top: 530px;
-    right: 180px;
+    top: -90px;
+    right: 160px;
 }
 .footer{
     background: url(Imagens/BG.png) no-repeat top center;
@@ -50,7 +51,7 @@ h1{
     height: 2.5rem;
     padding: .5rem;
     text-transform: uppercase;
-    font-size: 0.5625rem;
+    font-size: 0.6875rem;
     font-weight: 500;
     color: white;
     text-decoration: none;
@@ -81,4 +82,32 @@ h1{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    cursor: pointer;
+}
+
+
+/* Media Queries */
+
+@media (max-width:355px) {
+    .btn-sneakers3 img{
+        top: -90px;
+        right: 150px;
+    }
+}
+@media (min-width: 356px) and (max-width:414px) {
+    .btn-sneakers1 img{
+        top: -220px;
+        right: 150px;
+    }
+    .btn-sneakers3 img{
+        top: -90px;
+        right: 190px;
+    }
+}
+@media (min-width: 415px) {
+    body{
+        max-width: 360px;
+        max-height: 640px;
+        margin: 0 auto; 
+    }
 }
