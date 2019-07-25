@@ -87,14 +87,7 @@ h1{
 
 
 /* Media Queries */
-
-@media (max-width:355px) {
-    .btn-sneakers3 img{
-        top: -90px;
-        right: 150px;
-    }
-}
-@media (min-width: 356px) and (max-width:414px) {
+@media (min-width: 375px) and (max-width:414px) {
     .btn-sneakers1 img{
         top: -220px;
         right: 150px;
