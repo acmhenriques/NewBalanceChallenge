@@ -71,6 +71,7 @@ h1{
     display: flex;
     text-decoration: none;
     color: rgb(34, 34, 34);
+    font-size: 0.875rem;
     line-height: 2;
 }
 .column-map a img{
