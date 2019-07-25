@@ -20,7 +20,7 @@ h1{
     text-transform: uppercase;
     font-size: 1.4375rem;
     font-weight: 400;
-    margin: 35px 0 230px;
+    margin: 35px 0 250px;
      
 }
 .sneakers{
@@ -43,13 +43,13 @@ h1{
 }
 .footer{
     background: url(Imagens/BG.png) no-repeat top center;
-    padding: 50px 0;
+    padding: 70px 0 30px;
 }
 .btn-mais{
     background-color: #cf0a2c;
     width: 10.5rem;
     height: 2.5rem;
-    padding: .5rem;
+    padding: .7rem;
     text-transform: uppercase;
     font-size: 0.6875rem;
     font-weight: 500;
@@ -60,7 +60,7 @@ h1{
 .grid-find-us{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin-top: 65px;
+    margin-top: 75px;
 }
 .column-map{
     display: flex;
@@ -87,6 +87,11 @@ h1{
 
 
 /* Media Queries */
+@media (max-width: 374px) {
+    h1{
+        font-size: 1.25rem;
+    }
+}
 @media (min-width: 375px) and (max-width:414px) {
     .btn-sneakers1 img{
         top: -220px;
