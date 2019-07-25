@@ -10,6 +10,10 @@ body{
     margin: 0 auto;
     position: relative;
 }
+.wrapper-small{
+    width: 85%;
+    margin: 0 auto;
+}
 .header img{
     width: 100%
 }
@@ -17,7 +21,7 @@ h1{
     text-transform: uppercase;
     font-size: 1.4375rem;
     font-weight: 500;
-    margin-top: 35px;
+    margin: 35px 0 245px;
     color: rgb(34, 34, 34);
 }
 .btn-sneakers1 img, .btn-sneakers2 img, .btn-sneakers3 img{
@@ -42,17 +46,20 @@ h1{
     padding: .5rem;
     text-transform: uppercase;
     font-size: 0.5625rem;
-    font-weight: 500;
-    margin-top: 280px;
+    font-weight: 400;
     color: white;
     text-decoration: none;
 }
 .grid-find-us{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    grid-column-gap: 8.125rem;
-    grid-row-gap: 1.875rem;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 65px; 
 }
 .btn-store{
     text-decoration: none;
+}
+.column-logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
