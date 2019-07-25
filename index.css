@@ -8,7 +8,7 @@ body{
 .wrapper{
     width: 100%;
     margin: 0 auto;
-    position: absolute;
+    position: relative;
 }
 .header img{
     width: 100%
@@ -18,22 +18,41 @@ h1{
     font-size: 1.4375rem;
     font-weight: 500;
     margin-top: 35px;
+    color: rgb(34, 34, 34);
 }
-.sneakers1, .sneakers2, .sneakers3 {
-    position: relative;
+.btn-sneakers1 img, .btn-sneakers2 img, .btn-sneakers3 img{
+    position: absolute;
 }
-
-/* .grid-header{
+.btn-sneakers1 img{
+    top: 430px;
+    right: 150px;
+}
+.btn-sneakers2 img{
+    top: 500px;
+    right: 30px;
+}
+.btn-sneakers3 img{
+    top: 550px;
+    right: 180px;
+}
+.btn-mais{
+    background-color: #cf0a2c;
+    width: 10.5rem;
+    height: 2.5rem;
+    padding: .5rem;
+    text-transform: uppercase;
+    font-size: 0.5625rem;
+    font-weight: 500;
+    margin-top: 280px;
+    color: white;
+    text-decoration: none;
+}
+.grid-find-us{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-column-gap: 8.125rem;
+    grid-row-gap: 1.875rem;
 }
-.col{
-    display: flex;
-    height: 400px;
+.btn-store{
+    text-decoration: none;
 }
-.img1{
-    background: url(Imagens/NB.png) no-repeat center center/cover;
-}
-.img2{
-    background: url(Imagens/977H.png) no-repeat center center/cover;
-} */
