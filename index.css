@@ -16,7 +16,7 @@ body{
 .header img{
     width: 100%
 }
-.new{
+/* .new{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     color: #cf0a2c;
@@ -24,7 +24,7 @@ body{
     transform: translate(245%, -170%);
     opacity: 0;
     width: 100px;
-}
+} */
 h1{
     text-transform: uppercase;
     font-size: 1.4375rem;
