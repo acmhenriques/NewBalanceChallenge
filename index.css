@@ -2,7 +2,7 @@
     line-height: 1;
 }
 body{
-    font-family: 'Proxima Nova W01', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
     text-align: center;
 }
 .wrapper{
@@ -16,20 +16,29 @@ body{
 .header img{
     width: 100%
 }
+.header p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #cf0a2c;
+    font-size: 1.6875rem;
+    transform: translate(32%, -170%);
+    opacity: 0;
+}
 h1{
     text-transform: uppercase;
     font-size: 1.4375rem;
     font-weight: 400;
-    margin: 35px 0 250px;
+    margin: 15px 0 250px;
      
 }
 .sneakers{
     position: relative;
+    margin: 0 auto;
 }
 .btn-sneakers1 img, .btn-sneakers2 img, .btn-sneakers3 img{
     position: absolute;
     cursor: pointer;
-    width: 50%;
+    width: 160px;
     background-color: transparent;
 }
 .btn-sneakers1 img{
@@ -37,11 +46,11 @@ h1{
     right: 120px;
 }
 .btn-sneakers2 img{
-    top: -145px;
+    top: -90px;
+    right: 140px;
 }
 .btn-sneakers3 img{
-    top: -90px;
-    right: 160px;
+    top: -145px;
 }
 .footer{
     background: url(Imagens/BG.png) no-repeat top center;
@@ -61,7 +70,7 @@ h1{
 }
 .grid-find-us{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     margin-top: 75px;
 }
 .column-map{
