@@ -16,13 +16,14 @@ body{
 .header img{
     width: 100%
 }
-.header p{
+.new{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     color: #cf0a2c;
     font-size: 1.6875rem;
-    transform: translate(32%, -170%);
+    transform: translate(245%, -170%);
     opacity: 0;
+    width: 100px;
 }
 h1{
     text-transform: uppercase;
