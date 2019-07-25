@@ -11,7 +11,7 @@ body{
     position: relative;
 }
 .wrapper-small{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
 }
 .header img{
@@ -30,10 +30,10 @@ h1{
 }
 .btn-sneakers1 img{
     top: 410px;
-    right: 150px;
+    right: 130px;
 }
 .btn-sneakers2 img{
-    top: 480px;
+    top: 485px;
     right: 30px;
 }
 .btn-sneakers3 img{
@@ -61,18 +61,23 @@ h1{
     grid-template-columns: 2fr 1fr;
     margin-top: 65px;
 }
-.btn-store{
-    text-decoration: none;
-    color: rgb(34, 34, 34);
-}
-.column-logo{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 .column-map{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     cursor: pointer;
+}
+.column-map a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    line-height: 2;
+}
+.column-map a img{
+    margin-right: 7px; 
+}
+.column-logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
